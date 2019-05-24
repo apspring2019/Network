@@ -33,6 +33,6 @@ public class ChatLineWriter extends Thread
 
     public void writeLine(String line)
     {
-        pipeline.add(line);
+        pipeline.put(line);
     }
 }
